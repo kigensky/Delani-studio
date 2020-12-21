@@ -185,7 +185,6 @@ footer p{
     top: 20px;
     left: 16px;
     padding-top: 20%;
-    /* font-size: 16px; */
   }
   .col-md-3 img{
     width:100%px;
@@ -199,9 +198,7 @@ footer p{
     margin-left: 2%;
     padding-bottom: 30px;
     margin-bottom: 20px;
-    /* margin-left: 10px; */
-
-    /* margin-right: -20%; */
+  
   }
 }
 @media only screen and (max-width: 425px){
