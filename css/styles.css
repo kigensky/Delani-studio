@@ -2,7 +2,7 @@
 html{
   scroll-behavior: smooth;
 }
-.landing{
+.maincontainer{
   background-image: url('../static/backgrounds/h_img.jpg');
   background-position: center center;
   background-size: cover;
@@ -13,11 +13,11 @@ html{
   font-family: 'Gabriela', serif;
   /* padding-bottom:5%; */
 }
-.landing h1{
+.maincontainer h1{
   padding: 2px;
   margin: 5px;
 }
-.landing p{
+.maincontainer p{
   padding: 2px;
 }
 #logo{
@@ -102,7 +102,7 @@ html{
   font-family: 'Gabriela', serif;
 }
 .contact{
-  background-image: url('../images/backgrounds/c_image.jpg');
+  background-image: url('../static/backgrounds/c_image.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
