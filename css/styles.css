@@ -11,7 +11,7 @@ html{
   text-align: center;
   padding-top:17%; 
   font-family: 'Gabriela', serif;
-  /* padding-bottom:5%; */
+  
 }
 .maincontainer h1{
   padding: 2px;
@@ -142,7 +142,7 @@ input[type=text],input[type=email],#comment{
   width: 60%;
 }
 button{
-  margin-left: 20%;
+  margin-left: 100%;
   padding-bottom: 30px;
   margin-bottom: 20px;
 }
@@ -176,7 +176,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'Delius Swash Caps', cursive;  
 }
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -270,5 +270,15 @@ footer p{
   #portfolio{
     margin-left:6%;
     margin-right: 10%; 
+  }
+  .form-group{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left:5%;
+  }
+  .col-md-12 text-center{
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    margin-left:5%;
   }
 }

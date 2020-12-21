@@ -19,7 +19,6 @@ $(document).ready(function(){
     $("#design-image").slideDown('1500');
   });
 });
-
 $(document).ready(function(){
   $("#product-image").click(function(){
     $("#product-image").slideDown('1500').hide('1000');
@@ -59,7 +58,6 @@ $(document).ready(function(){
     $("#overlay4").hide();
   });
 });
-
 $(document).ready(function(){
   $("#work5").mouseover(function(){
     $("#overlay5").show();
@@ -82,10 +80,8 @@ $(document).ready(function(){
     $("#overlay8").hide();
   });
 });
-
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
-    // event.preventDefault();
     var name = $("input#MERGE1").val();
     var email = $("input#MERGE0").val();
     var message = $("textarea#comment").val();
