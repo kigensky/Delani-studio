@@ -107,7 +107,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  /* text-align: center; */
+
 }
 .title{
   padding: 6px;
@@ -127,7 +127,7 @@ input[type=text],input[type=email],#comment{
 }
 
 .form-control::-webkit-input-placeholder { 
-  color: white; 
+  color:rgb(245, 245, 250); 
 }
 #MERGE1{
   width: 30%;
@@ -219,7 +219,7 @@ footer p{
     margin-right: 16%; 
   }
   button{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     margin-bottom: 20px;
   }
   #MERGE0{
@@ -273,8 +273,9 @@ footer p{
   }
   .form-group{
     padding-bottom: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left:5%;
+    color: white;
   }
   .col-md-12 text-center{
     padding-bottom: 80px;
