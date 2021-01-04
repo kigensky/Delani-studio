@@ -82,7 +82,7 @@ $(document).ready(function(){
 
 });
 $(document).ready(function(){
-  $("form#form34A").submit(function(event){
+  $("form#mc_embed_signup").submit(function(event){
     var name = $("input#MERGE1").val();
     var email = $("input#MERGE0").val();
     var message = $("textarea#comment").val();
